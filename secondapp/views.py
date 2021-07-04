@@ -4,4 +4,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def introduce (request):
-    return HttpResponse("Hi. my name is woosung")
+    return render(request, "secondapp/change_contents.html")
