@@ -1,0 +1,15 @@
+.TITAN_header_logo{
+    margin: 1rem 0; font-family: 'Tinos', serif;
+}
+
+.TITAN_header_button{
+    margin-bottom: 1.5rem;
+}
+
+.TITAN_footer_button {
+    margin-top: 1.5rem;
+}
+
+.TITAN_footer_logo{
+    margin: 1.5rem; font-family: 'Tinos', serif;
+}

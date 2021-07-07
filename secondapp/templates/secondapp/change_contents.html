@@ -1,7 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
+    <style>
+    .testings{
+        width: 48px;
+        height: 48px;
+        margin: 1rem;
+        background-color: yellow;
+        border-radius: 0.5rem;
+
+    }
+
+    </style>
+
+
     <div style="height: 30rem; background: aqua; margin: 2rem; border-radius: 1rem;">
-    '자기소개 하는곳'
+        <h2>'자기소개 하는곳'</h2>
+
+    <div class = 'testings' style="display: block ">block</div>
+    <div class = 'testings' style="display: inline-block ">inline-block</div>
+    <div class = 'testings' style="display: inline">inline</div>
+    <div class = 'testings' style="display: none">none</div>
+    <div class="testings"></div>
+
     </div>
+
 {% endblock %}
